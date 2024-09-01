@@ -36,8 +36,7 @@ Wajipedia’s text-to-speech feature brings content to life by reading articles 
 Understanding that one size does not fit all, Wajipedia offers extensive customization options. Users can adjust font size, choose their preferred font family, and modify text color to create a reading environment that suits their needs.
 
 ## A Collaborative Effort
-
-Wajipedia was not just the vision of its leader, **Md Murtuza Ali**, but a product of collaborative ingenuity. **Team Blaze** contributed creative ideas and technical expertise, ensuring that the platform not only met but exceeded the challenge's requirements. Together, the team developed a solution that is both functional and inclusive, proving that accessibility and innovation can go hand in hand.
+Wajipedia was driven by the vision of its leader, Md Murtuza Ali, who conceived most of the ideas aimed at making the platform accessible to all and spreading knowledge universally. His focus on features that cater to abled people, such as auto-scrolling, text-to-speech, and customizable text options, formed the core of the project. However, it was the combined effort of Team Blaze that brought these ideas to life. While many of the key concepts were initiated by Md Murtuza Ali, the team members also contributed their own creative ideas and technical expertise. Together, they developed a solution that is both functional and inclusive, demonstrating that accessibility and innovation can indeed go hand in hand. This project is a testament to the power of teamwork, where every member's contribution played a vital role in exceeding the challenge's requirements.
 
 ## Acknowledgments
 
