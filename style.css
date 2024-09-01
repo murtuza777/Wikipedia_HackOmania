@@ -1,0 +1,190 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header,
+nav,
+section {
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+
+header h1 {
+  color: #333;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+article {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+}
+
+aside {
+  float: right;
+  width: 30%;
+}
+
+aside ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.container {
+  margin: 20px;
+}
+
+.buttons {
+  margin-bottom: 20px;
+}
+
+.button {
+  background-color: #007BFF;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+  /* Darker shade on hover */
+}
+
+.text {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+.para {
+  font-style: italic;
+  color: #666;
+}
+
+/* Floating Button */
+.floatingBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.floatingBtn:hover {
+  background-color: #0056b3;
+  /* Darker shade on hover */
+}
+
+/* Modal */
+.modal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  z-index: 1000;
+}
+
+.modal-content {
+  text-align: left;
+}
+
+/* Additional CSS for the Customize button */
+.settings-btn {
+  margin: 5px;
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.accessibility-btn {
+  margin: 5px;
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+/* Additional styles for search input */
+header input[type="text"] {
+  padding: 10px;
+  width: 300px;
+  margin-top: 10px;
+}
+
+/* Additional styles for search results */
+#searchResult {
+  display: none;
+  margin-top: 20px;
+}
+
+#searchResult article {
+  margin-bottom: 20px;
+}
+
+/* Additional styles for search results */
+#searchResult {
+  display: none;
+  margin-top: 20px;
+}
+
+#searchResult article {
+  margin-bottom: 20px;
+  cursor: pointer; /* Change cursor to pointer when hovering over search result */
+}
+
+#searchResult article:hover {
+  background-color: #f0f0f0; /* Change background color when hovering over search result */
+}
+
+/* Additional styles for search results */
+#content-container article {
+  margin-bottom: 20px;
+  cursor: pointer; /* Change cursor to pointer when hovering over search result */
+}
