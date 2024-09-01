@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wikipedia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>WIKIPEDIA</h1>
+    <input type="text" id="searchInput" placeholder="Search Wikipedia">
+</header>
+
+<section id="content-container">
+        <article>
+            <h1>Sundar Pichai</h1>
+            <hr>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Sundar_Pichai_%282023%29_cropped.jpg/330px-Sundar_Pichai_%282023%29_cropped.jpg" alt="Sundar Pichai">
+            <p>Pichai Sundararajan, better known as Sundar Pichai, is an Indian-born American business executive. He is the CEO of Alphabet Inc. and its subsidiary Google. Pichai was born on June 10, 1972, in Madurai, Tamil Nadu, India.</p>
+
+            <h2>Early Life and Education</h2>
+            <p>Pichai's early life was marked by curiosity and a passion for technology. Growing up in a middle-class family, he showed a keen interest in computers from a young age. He attended Jawahar Vidyalaya Senior Secondary School in Ashok Nagar, Chennai, and completed his Class XII from Vana Vani school at IIT Madras.</p>
+            <p>He pursued his bachelor's degree in metallurgical engineering from IIT Kharagpur, where he demonstrated academic excellence. Pichai continued his education in the United States, earning a master's degree from Stanford University in materials science and engineering. Later, he completed an MBA from the Wharton School of the University of Pennsylvania.</p>
+
+            <h2>Career</h2>
+            <p>Pichai's journey at Google began in 2004, where he played a pivotal role in the development of various products, including Google Chrome and ChromeOS. Over the years, he spearheaded projects like Google Drive, Gmail, and Google Maps. His leadership extended to the mobile domain when he added Android to the list of products under his purview in 2013.</p>
+            <p>On August 10, 2015, Sundar Pichai became the CEO of Google, succeeding Larry Page. This transition coincided with the formation of Alphabet Inc., Google's parent company. Pichai's strategic vision and commitment to innovation led him to become the CEO of Alphabet Inc. in December 2019.</p>
+
+            <h2>U.S. Congressional Testimony</h2>
+            <p>Sundar Pichai faced scrutiny from the United States House Judiciary Committee on December 11, 2018. The testimony covered various Google-related issues, including concerns about possible political bias on Google's platforms, plans for a "censored search app" in China, and privacy practices. Pichai emphasized that Google employees cannot influence search results, and he assured users that they can opt out of data collection.</p>
+
+            <h2>Awards and Recognition</h2>
+            <p>In 2022, Pichai received the Padma Bhushan in the category of Trade and Industry from the Government of India, the country's third-highest civilian award. This recognition reflects his significant contributions to the technology sector and his role in advancing Google's global impact.</p>
+
+            <h2>Personal Life</h2>
+            <p>Sundar Pichai is married to Anjali Pichai, his college sweetheart from IIT Kharagpur. The couple has two children. Pichai's personal interests include cricket and football. Despite his demanding role, he maintains a balance between work and family life. The Pichai family resides in Los Altos Hills, California.</p>
+        </article>
+    </section>
+
+    <div id="floatingBtnContainer">
+        <button id="settingsBtn" class="floatingBtn">Settings</button>
+    </div>
+    
+    <div id="settings" class="modal">
+        <div class="modal-content">
+            <h2>Customize Your Experience</h2>
+            <label for="fontSize">Font Size:</label>
+            <input type="range" id="fontSize" min="10" max="30">
+    
+            <label for="fontFamily">Font Family:</label>
+            <select id="fontFamily">
+                <option value="Arial, sans-serif">Arial</option>
+                <option value="Tahoma, Geneva, Verdana, sans-serif">Tahoma</option>
+                <!-- Add more font options as needed -->
+            </select>
+    
+            <label for="textColor">Text Color:</label>
+            <input type="color" id="textColor">
+    
+            <!-- Add more customization options as needed -->
+    
+            <button id="applySettings" class="settings-btn">Apply</button>
+            <button id="saveSettings" class="settings-btn">Save</button>
+            <button id="setDefault" class="settings-btn">Set Default</button>
+    
+            <h2>Accessibility</h2>
+            <button id="startScroll" class="accessibility-btn">Start Auto Scroll</button>
+            <button id="stopScroll" class="accessibility-btn">Stop Auto Scroll</button>
+            <button id="textToSpeech" class="accessibility-btn">Read Aloud</button>
+        </div>
+    </div>
+    
+    <script src="script.js" defer></script>
+    
+    </body>
+    </html>
