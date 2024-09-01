@@ -43,6 +43,4 @@ Wajipedia was not just the vision of its leader, **Md Murtuza Ali**, but a produ
 
 We express our gratitude to the IIIT Hyderabad's WikiClub Chair for presenting this meaningful challenge and to the organizers from VJIT college for providing a platform where creativity and technology converge. Wajipedia harnesses the power of the Wikipedia API to deliver content and images, and it utilizes the Web Speech API to bring articles to life through text-to-speech.
 
----
 
-This version of the README is designed to be more engaging, highlighting the innovation and collaboration behind Wajipedia. It emphasizes the project's purpose, the team's collective effort, and the impact of the features, making it a compelling document for showcasing the work done by Team Blaze.
